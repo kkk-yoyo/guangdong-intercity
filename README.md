@@ -1,5 +1,12 @@
 # 广东城际 · 出行助手
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![version](https://img.shields.io/github/package-json/v/kkk-yoyo/guangdong-intercity)
+![node](https://img.shields.io/badge/node-%3E%3D18-green)
+![dependencies](https://img.shields.io/badge/dependencies-0-success)
+![build](https://img.shields.io/badge/build-none-lightgrey)
+![last commit](https://img.shields.io/github/last-commit/kkk-yoyo/guangdong-intercity)
+
 一个移动端优先的 **广东城际铁路出行服务 Web 应用**，仿照官方 App 的蓝白视觉，提供实时车次查询、智能换乘规划、线路图、票务指引、在线客服、失物招领和车站设施查询。
 
 前端为原生 HTML / CSS / JavaScript，无框架、无构建步骤；后端是一个零依赖的 Node.js 本地服务器，负责静态文件服务，并代理官方接口、绕开浏览器的 CORS / Origin 限制。
